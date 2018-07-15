@@ -65,11 +65,6 @@ export { firebase, database as default };
 //   createdAt: 976123498763
 // });
 
-
-
-
-
-
 // // database.ref('notes/-Krll52aVDQ3X6dOtmS7').remove();
 
 // // database.ref('notes').push({
