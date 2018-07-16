@@ -3,12 +3,11 @@
 exports[`should render Header correctly 1`] = `
 <header>
   <h1>
-    Expensify
+    Budget-App
   </h1>
   <NavLink
     activeClassName="is-active"
-    exact={true}
-    to="/"
+    to="/dashboard"
   >
     Dashboard
   </NavLink>
