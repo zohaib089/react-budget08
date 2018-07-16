@@ -12,8 +12,9 @@ const config = {
 firebase.initializeApp(config);
 
 const database = firebase.database();
+const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
-export { firebase, database as default };
+export { firebase, googleAuthProvider, database as default };
 
 // // child_removed
 // database.ref('expenses').on('child_removed', (snapshot) => {
@@ -64,6 +65,11 @@ export { firebase, database as default };
 //   amount: 109500,
 //   createdAt: 976123498763
 // });
+
+
+
+
+
 
 // // database.ref('notes/-Krll52aVDQ3X6dOtmS7').remove();
 

@@ -1,8 +1,8 @@
 {
-  "name": "Budget-app",
+  "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Zabi jarral",
+  "author": "Andrew Mead",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack",
@@ -20,11 +20,11 @@
     "babel-plugin-transform-object-rest-spread": "6.23.0",
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
-    "build": "^0.1.4",
     "css-loader": "0.28.4",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
     "firebase": "4.2.0",
+    "history": "4.7.2",
     "moment": "2.18.1",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
